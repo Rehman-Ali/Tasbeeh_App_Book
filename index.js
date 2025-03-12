@@ -15,7 +15,7 @@ app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use(express.json({ extended: false }));
 
 
-// configure the app to use bodyParser()
+/// configure the app to use bodyParser()
 app.use(
   bodyParser.urlencoded({
     extended: true,
